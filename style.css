@@ -9,16 +9,26 @@ body {
     font-size: 21px;
   display: flex;
   justify-content: space-around;
-    border: 2px solid darkviolet;
-    width: 75%;
+    background-color: darkviolet;
+    color: white;
+}
+
+.navbar p:hover {
+	text-decoration: underline;
+    font-weight: bold;
+}
+
+.intro {
+    background-color: #faf2ff;
+    padding: 30px;
 }
 
 hr {
-    width: 50%;
     border: 1px solid darkviolet;
 }
 
-.links {
+.section {
+    width: 75%;
     padding: 20px;
     margin: auto;
     margin-top: 50px;
@@ -37,3 +47,11 @@ a {
     float: left;
     padding: 20px;
 }  
+
+.projects {
+	display: none;
+}
+
+.labs {
+    display: none;
+}
